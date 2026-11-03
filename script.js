@@ -9,7 +9,7 @@
           observer.unobserve(entry.target);
         }
       }
-    }, { rootMargin: '0px 0px 200px 0px', threshold: 0 });
+    }, { rootMargin: '0px 0px -10% 0px', threshold: 0 });
     for (const section of sections) {
       if (section.getBoundingClientRect().top > window.innerHeight + 240) {
         section.classList.add('reveal-pending');
